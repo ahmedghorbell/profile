@@ -29,7 +29,7 @@ const ProfComponent = () => {
             comfortable for me to work with, and I'm always looking for
             technologies for improving my development process.
           </p>
-          <a href="https://www.canva.com/design/DAFjdE-XxpM/s73I9NZQP9ejgs6rMR9vMQ/edit?utm_content=DAFjdE-XxpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><button>My Resume</button></a>
+          <a href="https://www.canva.com/design/DAFliP655xw/qXKkS4muxI2d815mOg9XTA/edit?utm_content=DAFliP655xw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><button>My Resume</button></a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
