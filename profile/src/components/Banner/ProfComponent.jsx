@@ -16,26 +16,23 @@ const ProfComponent = () => {
           <h1 className="green">Ahmed Ghorbel</h1>
           <h3>Full Stack Developer</h3>
           <p>
-            Hello and thank you for visiting my online portfolio! I'm a skilled
-            web developer who specializes in using JavaScript to build dynamic
-            websites and web applications. I am a Full Stack developer, thus I
-            am quite knowledgeable about both the front-end and back-end of web
-            development. I feel familiar with using a variety of frameworks and
-            technologies, including React.js, Node.js, Vue.js, MongoDB, and
-            more. I take great satisfaction in my strong problem-solving skills
-            and attention to detail in addition to my technical ability. My
-            passion is to create clear and effective code that provides a
-            wonderful user experience. Both Agile and Waterfall contexts are
-            comfortable for me to work with, and I'm always looking for
-            technologies for improving my development process.
+            "Welcome to my online portfolio! I'm a highly skilled web developer
+            with a strong focus on JavaScript to craft dynamic websites and web
+            applications. As a Full Stack developer, I bring expertise to both
+            the front-end and back-end of web development. <br /> My toolkit
+            includes a range of frameworks and technologies, such as React.js,
+            Node.js, Vue.js, MongoDB, and more. I take immense pride in my
+            problem-solving abilities and keen attention to detail, which I
+            combine with technical prowess to create clean and efficient code
+            that delivers an exceptional user experience. <br /> I'm passionate
+            about my work and dedicated to improving my development process. I
+            adapt seamlessly to both Agile and Waterfall methodologies, always
+            on the lookout for new technologies to enhance my skillset. <br />
+            Let's collaborate to bring your web projects to life!"
           </p>
-<<<<<<< HEAD
-          <a href="https://www.canva.com/design/DAFliP655xw/qXKkS4muxI2d815mOg9XTA/edit?utm_content=DAFliP655xw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" download="AhmedGhorbelResume.pdf">
+          <a href="https://www.canva.com/design/DAFliP655xw/qXKkS4muxI2d815mOg9XTA/edit?utm_content=DAFliP655xw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
             <button>My Resume</button>
           </a>
-=======
-          <a href="https://www.canva.com/design/DAFliP655xw/qXKkS4muxI2d815mOg9XTA/edit?utm_content=DAFliP655xw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><button>My Resume</button></a>
->>>>>>> 27c6ebc8a3eb9d2e0279911ff7f89c5bd757259c
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
@@ -113,9 +110,9 @@ const Texts = styled.div`
     padding: 0.7rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
-    background-color: #FBF8BE;
+    background-color: #fbf8be;
     border: none;
-    color: #234E70;
+    color: #234e70;
     font-weight: 500;
   }
 `;
@@ -139,7 +136,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #FBF8BE;
+      background-color: #fbf8be;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {
@@ -148,7 +145,7 @@ const Social = styled.div`
     }
 
     a {
-      color: #234E70;
+      color: #234e70;
       position: absolute;
       top: 55%;
       left: 50%;
@@ -159,7 +156,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 5px 5px #FBF8BE);
+    filter: drop-shadow(0px 5px 5px #fbf8be);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;
