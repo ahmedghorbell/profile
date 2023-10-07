@@ -25,7 +25,7 @@ const Footer = () => {
               <h1>Address:</h1>
             </Slide>
             <Slide direction="left">
-              <p>Tunis, Tunisia</p>
+              <p>Sfax, Tunisia</p>
             </Slide>
           </div>
           <div className="group">
@@ -102,7 +102,7 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.footer`
-  background-color: #234e70;
+  background-color: #00203FFF;
   padding: 2rem 0;
   color: #fff;
   text-align: center;
@@ -161,20 +161,20 @@ const Profile = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #fbf8be;
+        background-color: #ADEFD1FF;
         width: 2rem;
         height: 2rem;
         margin-right: 0.5rem;
         border-radius: 50px;
         :hover {
-          background-color: #234e70;
-          color: #fbf8be;
+          background-color: #00203FFF;
+          color: #ADEFD1FF;
         }
         a {
           margin-top: 0.2rem;
-          color: #234e70;
+          color: #00203FFF;
           :hover {
-            color: #fbf8be;
+            color: #ADEFD1FF;
           }
         }
       }
@@ -185,8 +185,8 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #fbf8be;
-  color: #234e70;
+  background-color: #ADEFD1FF;
+  color: #00203FFF;
   display: flex;
   align-items: center;
   justify-content: center;

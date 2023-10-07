@@ -110,9 +110,9 @@ const Texts = styled.div`
     padding: 0.7rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
-    background-color: #fbf8be;
+    background-color: #ADEFD1FF;
     border: none;
-    color: #234e70;
+    color: #00203FFF;
     font-weight: 500;
   }
 `;
@@ -136,7 +136,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #fbf8be;
+      background-color: #ADEFD1FF;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {
@@ -145,7 +145,7 @@ const Social = styled.div`
     }
 
     a {
-      color: #234e70;
+      color: #00203FFF;
       position: absolute;
       top: 55%;
       left: 50%;
@@ -156,7 +156,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 5px 5px #fbf8be);
+    filter: drop-shadow(0px 5px 5px #ADEFD1FF);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;

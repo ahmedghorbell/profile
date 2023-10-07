@@ -4,6 +4,7 @@ import ProfComponent from "./components/Banner/ProfComponent";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import Certificates from "./components/Certificate/Certificates";
 import Services from "./components/Service/Services";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </Banner>
       <Services />
       <LightColor>
+        <Certificates />
         <Projects />
       </LightColor>
       <Skills />
@@ -28,7 +30,7 @@ export default App;
 
 const Container = styled.div``;
 const Banner = styled.div`
-  background: #234E70;
+  background: #00203fff;
   height: 100vh;
   @media (max-width: 640px) {
     height: 100%;
@@ -37,5 +39,5 @@ const Banner = styled.div`
 `;
 
 const LightColor = styled.div`
-  background: #234E70;
+  background: #00203fff;
 `;

@@ -11,7 +11,7 @@
 
 :root{
   --lighter: linear-gradient(159deg, rgb(37, 37, 130) 0%, rgb(43, 43, 53) 100%);
-  ---background: #234E70;
+  ---background: #00203FFF;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
 }
 
 .green {
-  color: #FBF8BE;
+  color: #ADEFD1FF;
 }
 
 .slick-list, .slick-slider, .slick-track{

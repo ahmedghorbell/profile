@@ -63,6 +63,11 @@ let clients = [
     img_url:
       "https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png",
   },
+  {
+    name: "SQL",
+    img_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC-B_MIu5Th8IwEU6MZiitQUW5-_sbg_6ldOaldVQViWTjJ5YCWtFQcps_KVVMfBu0H8w&usqp=CAU",
+  },
 ];
 var settings = {
   dots: true,
@@ -169,7 +174,7 @@ const Container = styled.div`
   }
 
   .slick-dots li.slick-active button {
-    background: #FBF8BE;
+    background: #ADEFD1FF;
     width: 15px;
   }
 
@@ -191,7 +196,7 @@ const Buttons = styled.div`
     background-color: transparent;
     margin-left: 0.5rem;
     border: none;
-    color:#FBF8BE;
+    color:#ADEFD1FF;
     cursor: pointer;
     font-size: 1.1rem;
   }

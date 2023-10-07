@@ -76,7 +76,7 @@ const Nav = styled.nav`
     position: fixed;
     display: flex;
     flex-direction: column;
-    background-color: #234e70;
+    background-color: #00203FFF;
     inset: 0;
     justify-content: center;
     align-items: center;
